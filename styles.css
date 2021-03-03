@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Century Gothic', sans-serif;
   color: #155f98;
   background: #b6dbf8;
 }
@@ -57,14 +57,14 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/atlanta-skyline2.jpg') no-repeat top center ;
+  background: url('images/atlskyline.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
 
 #art-header {
-  background: url('images/colored-pencils.png') no-repeat top center ;
+  background: url('images/colored-pencils.jpg') no-repeat top center ;
 }
 
 header {
@@ -130,14 +130,27 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #3d99df;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #155f98;
+}
+
+.tools li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #3d99df;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.tools li:nth-child(odd) {
+  background: #155f98;
 }
 
 footer {
@@ -158,6 +171,10 @@ footer ul {
 }
 
 footer ul li {
+  display: inline-block;
+}
+
+.tools {
   display: inline-block;
 }
 
